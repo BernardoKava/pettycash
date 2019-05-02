@@ -1,0 +1,13 @@
+<% provide(:title, "Edit") %>
+<div class="breadcrumb"style="background-color: khaki;color: #730E15">
+  <h3>Editing: <%= @transaction.details %></h3>
+</div>
+
+<%= render 'form', transaction: @transaction %>
+
+<br>
+<div class="breadcrumb">
+  <%= link_to 'View', @transaction %> |
+  <%= link_to 'Back', transactions_path %>
+</div>
+

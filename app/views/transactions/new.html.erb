@@ -1,0 +1,12 @@
+<% provide(:title, "New") %>
+<div class="breadcrumb"style="background-color: khaki;color: #730E15">
+  <h3>New Transaction</h3>
+</div>
+
+<%= render 'form', transaction: @transaction %>
+
+<br>
+<div class="breadcrumb">
+  <%= link_to 'Back', transactions_path %>
+</div>
+

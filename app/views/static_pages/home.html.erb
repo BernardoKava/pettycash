@@ -1,9 +1,21 @@
 <% provide(:title, "Home") %>
 
 
-<h1>Pettycash</h1>
-<p>
-  This is the home page for the
-  <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
+<% if current_user %>
+
+  <%= link_to "Cash Boxes", cashboxes_path %>  <br>
+  <%= link_to "Cash transactions", transactions_path %>
+
+<% else %>
+  <div class="center jumbotron">
+
+    <h4>
+      - The Petty-Cash application is the system of record for the management of cash withdrawn or cash gifts given to
+      the household. <br>
+      - Users must have access to the application. <br>
+      - Access can be requested via the Home Intelligence Application.
+    </h4>
+
+  </div>
+
+<% end %>

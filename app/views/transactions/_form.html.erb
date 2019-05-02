@@ -1,0 +1,51 @@
+
+<%= simple_form_for(@transaction) do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+  <div class="jumbotron"style="background-color: lightgoldenrodyellow">
+
+    <div class="row">
+      <div class="col-sm-6">
+        <%= f.input :t_date %>
+        <%= f.input :details , placeholder:"fund recipient..."%>
+        <div data-toggle= "tooltip"  data-placement="top"
+             title="Please do not use the arithmetic sign for 'expense' transactions.">
+          <%= f.input :amount , placeholder:"Euro value (numbers only)..."%>
+        </div>
+
+        <%= f.input :rationale, placeholder:"The reason for this transaction..." %>
+        <%= f.input :note , placeholder:"Additional notes..." %>
+      </div>
+      <div class="col-sm-6">
+        <div class ="controls">
+          <%= f.association :cashbox, collection: Cashbox.order(:name),label_method: :name,
+                            prompt: "Choose a CB", label:"Cash-Box Associated" %>
+        </div>
+
+        <div class ="controls">
+          <%= f.association :cashflow, collection: Cashflow.order(:name),label_method: :name,
+                            prompt: "Choose a CF", label:"Cash-Flow Associated" %>
+        </div>
+
+        <div class ="controls">
+          <%= f.association :person, collection: Person.order(:fullname),label_method: :fullname,
+                            prompt: "Choose an Owner", label:"Owner" %>
+        </div>
+      </div>
+      <br>
+      </div>
+      <br>
+
+      </div>
+      <br>
+
+      </div>
+
+    </div>
+    <div class="form-actions">
+      <%= f.button :submit,"Save" %>
+    </div>
+<% end %>
+
+</div>

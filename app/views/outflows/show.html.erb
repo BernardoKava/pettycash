@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @outflow.amount %>
+</p>
+
+<p>
+  <strong>Details:</strong>
+  <%= @outflow.details %>
+</p>
+
+<p>
+  <strong>Cashflow:</strong>
+  <%= @outflow.cashflow_id %>
+</p>
+
+<p>
+  <strong>Month:</strong>
+  <%= @outflow.month %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @outflow.year %>
+</p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @outflow.person_id %>
+</p>
+
+<p>
+  <strong>Outflowtype:</strong>
+  <%= @outflow.outflowtype_id %>
+</p>
+
+<p>
+  <strong>Date posted:</strong>
+  <%= @outflow.date_posted %>
+</p>
+
+<p>
+  <strong>Rationale:</strong>
+  <%= @outflow.rationale %>
+</p>
+
+<p>
+  <strong>Bankaccount:</strong>
+  <%= @outflow.bankaccount_id %>
+</p>
+
+<p>
+  <strong>Follow up:</strong>
+  <%= @outflow.follow_up %>
+</p>
+
+<%= link_to 'Edit', edit_outflow_path(@outflow) %> |
+<%= link_to 'Back', outflows_path %>

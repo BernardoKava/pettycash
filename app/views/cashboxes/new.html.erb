@@ -1,0 +1,12 @@
+<% provide(:title, "New") %>
+
+<div class="breadcrumb"style="background-color: khaki;color: #730E15">
+<h2>New Cashbox</h2>
+</div>
+
+<%= render 'form', cashbox: @cashbox %>
+
+<div class="breadcrumb">
+  <%= link_to 'Back', cashboxes_path %>
+</div>
+

@@ -1,0 +1,50 @@
+<% provide(:title, "Transaction") %>
+
+<div class="breadcrumb" style="background-color: khaki;color: #730E15">
+  <h2><%= @transaction.details %></h2>
+</div>
+
+<div class="jumbotron" style="background-color: aliceblue;color: navy">
+  <table class="table table-striped">
+    <tbody>
+    <tr>
+    <tr>
+      <td>Transaction date:</td>
+      <td><%= @transaction.t_date.strftime("%d %b. %Y") %></td>
+    </tr>
+      <td>Details:</td>
+      <td><%= @transaction.details %> </td>
+    </tr>
+    <tr>
+      <td>Amount:</td>
+      <td><%= @transaction.amount %></td>
+    </tr>
+    <tr>
+      <td>Rationale:</td>
+      <td><%= @transaction.rationale %></td>
+    </tr>
+    <tr>
+      <td>Note:</td>
+      <td><%= @transaction.note %></td>
+    </tr>
+    <tr>
+      <td>Cashbox:</td>
+      <td><%= @transaction.cashbox.name %></td>
+    </tr>
+    <tr>
+      <td>Owner:</td>
+      <td><%= @transaction.person.fullname %></td>
+    </tr>
+    <tr>
+      <td>Cashflow:</td>
+      <td><%= @transaction.cashflow.name %></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="breadcrumb">
+  <%= link_to 'Edit', edit_transaction_path(@transaction) %> |
+  <%= link_to 'Back', transactions_path %>
+</div>
+

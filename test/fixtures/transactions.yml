@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  t_date: 2019-04-30
+  details: MyString
+  amount: 
+  rationale: MyText
+  note: MyText
+  cashbox_id: 1
+  person_id: 1
+  cashflow_id: 1
+
+two:
+  t_date: 2019-04-30
+  details: MyString
+  amount: 
+  rationale: MyText
+  note: MyText
+  cashbox_id: 1
+  person_id: 1
+  cashflow_id: 1

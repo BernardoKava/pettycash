@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Outflows</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Amount</th>
+      <th>Details</th>
+      <th>Cashflow</th>
+      <th>Month</th>
+      <th>Year</th>
+      <th>Person</th>
+      <th>Outflowtype</th>
+      <th>Date posted</th>
+      <th>Rationale</th>
+      <th>Bankaccount</th>
+      <th>Follow up</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @outflows.each do |outflow| %>
+      <tr>
+        <td><%= outflow.amount %></td>
+        <td><%= outflow.details %></td>
+        <td><%= outflow.cashflow_id %></td>
+        <td><%= outflow.month %></td>
+        <td><%= outflow.year %></td>
+        <td><%= outflow.person_id %></td>
+        <td><%= outflow.outflowtype_id %></td>
+        <td><%= outflow.date_posted %></td>
+        <td><%= outflow.rationale %></td>
+        <td><%= outflow.bankaccount_id %></td>
+        <td><%= outflow.follow_up %></td>
+        <td><%= link_to 'Show', outflow %></td>
+        <td><%= link_to 'Edit', edit_outflow_path(outflow) %></td>
+        <td><%= link_to 'Destroy', outflow, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Outflow', new_outflow_path %>

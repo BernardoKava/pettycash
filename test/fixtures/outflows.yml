@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount: 
+  details: MyString
+  cashflow_id: 1
+  month: MyString
+  year: MyString
+  person_id: 1
+  outflowtype_id: 1
+  date_posted: 1
+  rationale: MyText
+  bankaccount_id: 1
+  follow_up: false
+
+two:
+  amount: 
+  details: MyString
+  cashflow_id: 1
+  month: MyString
+  year: MyString
+  person_id: 1
+  outflowtype_id: 1
+  date_posted: 1
+  rationale: MyText
+  bankaccount_id: 1
+  follow_up: false

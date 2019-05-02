@@ -1,0 +1,14 @@
+<% provide(:title, "Edit") %>
+
+<div class="breadcrumb"style="background-color: khaki;color: #730E15">
+  <h3>Editing: <%= @cashbox.name %></h3>
+</div>
+
+<%= render 'form', cashbox: @cashbox %>
+
+<div class="breadcrumb" style="background-color: khaki">
+  <%= link_to 'View', @cashbox %> |
+  <%= link_to 'Back', cashboxes_path %>
+</div>
+
+

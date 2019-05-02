@@ -1,0 +1,82 @@
+<% provide(:title, "Cash Box") %>
+
+<div class="breadcrumb" style="background-color: khaki;color: #730E15">
+  <h2><%= @cashbox.name %></h2>
+</div>
+<div class="jumbotron" style="background-color: aliceblue;color: navy">
+  <table class="table table-striped">
+    <tbody>
+    <tr>
+      <td>Name:</td>
+      <td><%= @cashbox.name %> </td>
+    </tr>
+    <tr>
+      <td>Accounting date:</td>
+      <td><%= @cashbox.accounting_date.strftime("%d %b. %Y") %></td>
+    </tr>
+    <tr>
+      <td>Active:</td>
+      <td><%= @cashbox.active.humanize %></td>
+    </tr>
+    <tr>
+      <td>Notes:</td>
+      <td><%= @cashbox.notes %></td>
+    </tr>
+    <tr>
+      <td>Indicative Balance:</td>
+      <td><%= @indicative_Cash_Bal %></td>
+    </tr>
+    <tr>
+      <td>Cash Expense Total:</td>
+      <td><%= @cash_expense_total %></td>
+    </tr>
+    <tr>
+      <td>Balance:</td>
+      <td><%= @balance %></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="breadcrumb" style="background-color: #730E15;color: white;text-align: center">
+  <h5>Related Transactions</h5>
+  <div class="alert-danger" >
+    <%= link_to "Go To Transactions", transactions_path %>
+  </div>
+
+</div>
+
+<div class="jumbotron" style="background-color: lightgoldenrodyellow;color: navy">
+  <table class=" table table-hover" >
+    <thead>
+    <tr>
+      <th>T date</th>
+      <th>Details</th>
+      <th>Amount</th>
+      <th>Cashbox</th>
+      <th>Owner</th>
+      <th>Cashflow</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% @related_trans.each do |transaction| %>
+      <tr>
+        <td><%= transaction.t_date.strftime("%d %b. %Y")  %></td>
+        <td><%= transaction.details %></td>
+        <td><%= transaction.amount %></td>
+        <td><%= transaction.cashbox.name %></td>
+        <td><%= transaction.person.fullname %></td>
+        <td><%= transaction.cashflow.name %></td>
+
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
+
+<div class="breadcrumb">
+  <%= link_to 'Edit', edit_cashbox_path(@cashbox) %> |
+  <%= link_to 'Back', cashboxes_path %>
+
+</div>
