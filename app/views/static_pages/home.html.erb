@@ -2,20 +2,31 @@
 
 
 <% if current_user %>
+<div class="jumbotron" style="background-color: #2a4b51;color: white">
+  <table class="table table-hover">
+    <tbody>
+    <tr>
+      <td><%= link_to "Cash Boxes", cashboxes_path,style:'color:red' %></td>
+      <td><%= @cahbox_text %> </td>
+    </tr>
+    <tr>
+      <td>  <%= link_to "Cash transactions", transactions_path ,style:'color:red'%>
+      </td>
+      <td><%= @trans_text %> </td>
+    </tbody>
+  </table>
 
-  <%= link_to "Cash Boxes", cashboxes_path %>  <br>
-  <%= link_to "Cash transactions", transactions_path %>
+
+</div>
+
 
 <% else %>
-  <div class="center jumbotron">
-
-    <h4>
-      - The Petty-Cash application is the system of record for the management of cash withdrawn or cash gifts given to
+  <div class="center jumbotron" style="background-color: darkcyan;color: white">
+      - The Petty-Cash application is the system of record for the management of cash withdrawn from house bank accounts or cash gifts given to
       the household. <br>
       - Users must have access to the application. <br>
-      - Access can be requested via the Home Intelligence Application.
-    </h4>
-
+      - Access can be requested via the Home Intelligence Application.  On the registration page. <br>
+      - Unauthorised access can lead to criminal prosecution at the courts of law.
   </div>
 
 <% end %>
