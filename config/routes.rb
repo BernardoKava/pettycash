@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :outflowtypes
   resources :outflows
   resources :people
   resources :cashflows

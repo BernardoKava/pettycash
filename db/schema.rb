@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_30_174125) do
+ActiveRecord::Schema.define(version: 2019_05_12_175546) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -526,6 +526,7 @@ ActiveRecord::Schema.define(version: 2019_04_30_174125) do
     t.text "rationale"
     t.integer "bankaccount_id"
     t.boolean "follow_up"
+    t.boolean "cash_withdrawal"
   end
 
   create_table "outflowtypes", force: :cascade do |t|
@@ -695,10 +696,6 @@ ActiveRecord::Schema.define(version: 2019_04_30_174125) do
     t.integer "person_id"
   end
 
-  create_table "test", id: false, force: :cascade do |t|
-    t.text "name"
-  end
-
   create_table "transactions", force: :cascade do |t|
     t.date "t_date"
     t.string "details"
@@ -710,6 +707,7 @@ ActiveRecord::Schema.define(version: 2019_04_30_174125) do
     t.integer "cashflow_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "outflowtype_id"
   end
 
   create_table "users", force: :cascade do |t|

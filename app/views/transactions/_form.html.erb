@@ -32,6 +32,10 @@
           <%= f.association :person, collection: Person.order(:fullname),label_method: :fullname,
                             prompt: "Choose an Owner", label:"Owner" %>
         </div>
+        <div class="control">
+          <%= f.association :outflowtype, collection: Outflowtype.order(:name),label_method: :name,
+                            prompt: "Choose a flowtype", label:"Type" %>
+        </div>
       </div>
       <br>
       </div>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @outflowtype.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @outflowtype.description %>
+</p>
+
+<p>
+  <strong>System item:</strong>
+  <%= @outflowtype.system_item %>
+</p>
+
+<%= link_to 'Edit', edit_outflowtype_path(@outflowtype) %> |
+<%= link_to 'Back', outflowtypes_path %>

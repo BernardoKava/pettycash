@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Outflowtypes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>System item</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @outflowtypes.each do |outflowtype| %>
+      <tr>
+        <td><%= outflowtype.name %></td>
+        <td><%= outflowtype.description %></td>
+        <td><%= outflowtype.system_item %></td>
+        <td><%= link_to 'Show', outflowtype %></td>
+        <td><%= link_to 'Edit', edit_outflowtype_path(outflowtype) %></td>
+        <td><%= link_to 'Destroy', outflowtype, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Outflowtype', new_outflowtype_path %>
