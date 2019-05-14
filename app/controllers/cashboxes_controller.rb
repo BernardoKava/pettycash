@@ -18,6 +18,7 @@ class CashboxesController < ApplicationController
     @indicative_Cash_Bal= Outflow.where(month:@cashbox.month, year:@cashbox.year, outflowtype_id: 56).sum(:amount)
     @cash_expense_total= Transaction.where(cashbox_id: @ref).sum(:amount)
     @balance= @indicative_Cash_Bal - @cash_expense_total
+    @cashbox.balance = @balance
 
 
 
