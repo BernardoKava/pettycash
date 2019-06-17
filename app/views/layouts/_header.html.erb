@@ -5,9 +5,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home",   root_path %></li>
         <% if current_user %>
-          <li><%= link_to "Home intelligence", 'http://h-intelligence.herga.net:3000' %></li>
-          <li><%= link_to "CF-Analyser", 'http://cf-analyser.herga.net:3000' %></li>
-          <li><%= link_to "DLibrary", 'http://dlibrary.herga.net' %></li>
+          <li><%= link_to "Centralis",   'http://centralis.herga.net' %></li>
           <li class="alert-danger"><%= link_to "Log out", destroy_user_session_path, method: :delete, class:'fa fa-sign-out' %></li>
         <% else %>
           <li><%= link_to "Log in", new_user_session_path, class:'fa fa-sign-in' %></li>
