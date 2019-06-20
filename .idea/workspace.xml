@@ -2,7 +2,144 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d30295-ed2a-4398-891d-6ae0c6eefc15" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/pettycash.iml" afterPath="$PROJECT_DIR$/.idea/pettycash.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.ruby-version" afterPath="$PROJECT_DIR$/.ruby-version" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/atom.png" afterPath="$PROJECT_DIR$/app/assets/images/atom.png" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rails.png" afterPath="$PROJECT_DIR$/app/assets/images/rails.png" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cashboxes.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/cashboxes.coffee" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cashflows.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/cashflows.coffee" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/outflows.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/outflows.coffee" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/outflowtypes.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/outflowtypes.coffee" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/people.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/people.coffee" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/static_pages.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/static_pages.coffee" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/transactions.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/transactions.coffee" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/cashboxes.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/cashboxes.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/cashflows.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/cashflows.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/outflows.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/outflows.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/outflowtypes.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/outflowtypes.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/people.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/people.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/transactions.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/transactions.scss" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/cashboxes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/cashboxes_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/cashflows_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/cashflows_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/outflows_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/outflows_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/outflowtypes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/outflowtypes_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/people_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/people_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/transactions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/transactions_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/cashboxes_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/cashboxes_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/cashflows_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/cashflows_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/outflows_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/outflows_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/outflowtypes_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/outflowtypes_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/people_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/people_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/static_pages_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/static_pages_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/transactions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/transactions_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" afterPath="$PROJECT_DIR$/app/models/application_record.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/cashbox.rb" afterPath="$PROJECT_DIR$/app/models/cashbox.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/cashflow.rb" afterPath="$PROJECT_DIR$/app/models/cashflow.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/concerns/.keep" afterPath="$PROJECT_DIR$/app/models/concerns/.keep" />
+      <change beforePath="$PROJECT_DIR$/app/models/outflow.rb" afterPath="$PROJECT_DIR$/app/models/outflow.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/outflowtype.rb" afterPath="$PROJECT_DIR$/app/models/outflowtype.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/person.rb" afterPath="$PROJECT_DIR$/app/models/person.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/transaction.rb" afterPath="$PROJECT_DIR$/app/models/transaction.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashboxes/_cashbox.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/cashboxes/_cashbox.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashboxes/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/cashboxes/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashboxes/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/cashboxes/edit.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashboxes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/cashboxes/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashboxes/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/cashboxes/index.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashboxes/new.html.erb" afterPath="$PROJECT_DIR$/app/views/cashboxes/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashboxes/show.html.erb" afterPath="$PROJECT_DIR$/app/views/cashboxes/show.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashboxes/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/cashboxes/show.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashflows/_cashflow.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/cashflows/_cashflow.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashflows/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/cashflows/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashflows/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/cashflows/edit.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashflows/index.html.erb" afterPath="$PROJECT_DIR$/app/views/cashflows/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashflows/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/cashflows/index.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashflows/new.html.erb" afterPath="$PROJECT_DIR$/app/views/cashflows/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashflows/show.html.erb" afterPath="$PROJECT_DIR$/app/views/cashflows/show.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/cashflows/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/cashflows/show.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/mailer/email_changed.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/mailer/email_changed.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/mailer/password_change.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/mailer/password_change.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/shared/_error_messages.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/shared/_error_messages.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_gravatar.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_gravatar.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_shim.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_shim.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflows/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/outflows/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflows/_outflow.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/outflows/_outflow.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflows/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/outflows/edit.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflows/index.html.erb" afterPath="$PROJECT_DIR$/app/views/outflows/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflows/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/outflows/index.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflows/new.html.erb" afterPath="$PROJECT_DIR$/app/views/outflows/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflows/show.html.erb" afterPath="$PROJECT_DIR$/app/views/outflows/show.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflows/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/outflows/show.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflowtypes/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/outflowtypes/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflowtypes/_outflowtype.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/outflowtypes/_outflowtype.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflowtypes/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/outflowtypes/edit.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflowtypes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/outflowtypes/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflowtypes/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/outflowtypes/index.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflowtypes/new.html.erb" afterPath="$PROJECT_DIR$/app/views/outflowtypes/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflowtypes/show.html.erb" afterPath="$PROJECT_DIR$/app/views/outflowtypes/show.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/outflowtypes/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/outflowtypes/show.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/people/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/people/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/people/_person.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/people/_person.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/people/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/people/edit.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/people/index.html.erb" afterPath="$PROJECT_DIR$/app/views/people/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/people/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/people/index.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/people/new.html.erb" afterPath="$PROJECT_DIR$/app/views/people/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/people/show.html.erb" afterPath="$PROJECT_DIR$/app/views/people/show.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/people/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/people/show.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/transactions/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/transactions/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/transactions/_transaction.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/transactions/_transaction.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/transactions/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/transactions/edit.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/transactions/index.html.erb" afterPath="$PROJECT_DIR$/app/views/transactions/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/transactions/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/transactions/index.json.jbuilder" />
+      <change beforePath="$PROJECT_DIR$/app/views/transactions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/transactions/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/transactions/show.html.erb" afterPath="$PROJECT_DIR$/app/views/transactions/show.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/transactions/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/transactions/show.json.jbuilder" />
       <change beforePath="$PROJECT_DIR$/bin/bundle" afterPath="$PROJECT_DIR$/bin/bundle" />
       <change beforePath="$PROJECT_DIR$/bin/rails" afterPath="$PROJECT_DIR$/bin/rails" />
       <change beforePath="$PROJECT_DIR$/bin/rake" afterPath="$PROJECT_DIR$/bin/rake" />
@@ -10,6 +147,94 @@
       <change beforePath="$PROJECT_DIR$/bin/spring" afterPath="$PROJECT_DIR$/bin/spring" />
       <change beforePath="$PROJECT_DIR$/bin/update" afterPath="$PROJECT_DIR$/bin/update" />
       <change beforePath="$PROJECT_DIR$/bin/yarn" afterPath="$PROJECT_DIR$/bin/yarn" />
+      <change beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/config/boot.rb" />
+      <change beforePath="$PROJECT_DIR$/config/cable.yml" afterPath="$PROJECT_DIR$/config/cable.yml" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" afterPath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
+      <change beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change beforePath="$PROJECT_DIR$/config/locales/simple_form.en.yml" afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" />
+      <change beforePath="$PROJECT_DIR$/config/puma.rb" afterPath="$PROJECT_DIR$/config/puma.rb" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change beforePath="$PROJECT_DIR$/config/spring.rb" afterPath="$PROJECT_DIR$/config/spring.rb" />
+      <change beforePath="$PROJECT_DIR$/config/storage.yml" afterPath="$PROJECT_DIR$/config/storage.yml" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190430150657_create_cashboxes.rb" afterPath="$PROJECT_DIR$/db/migrate/20190430150657_create_cashboxes.rb" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190430155656_create_transactions.rb" afterPath="$PROJECT_DIR$/db/migrate/20190430155656_create_transactions.rb" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190430174125_add_notes_to_cashboxes.rb" afterPath="$PROJECT_DIR$/db/migrate/20190430174125_add_notes_to_cashboxes.rb" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190512175546_add_outflowtype_to_transactions.rb" afterPath="$PROJECT_DIR$/db/migrate/20190512175546_add_outflowtype_to_transactions.rb" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190514161646_add_bal_to_cashboxes.rb" afterPath="$PROJECT_DIR$/db/migrate/20190514161646_add_bal_to_cashboxes.rb" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/.keep" afterPath="$PROJECT_DIR$/lib/assets/.keep" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/.keep" afterPath="$PROJECT_DIR$/lib/tasks/.keep" />
+      <change beforePath="$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb" afterPath="$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/log/.keep" afterPath="$PROJECT_DIR$/log/.keep" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" afterPath="$PROJECT_DIR$/public/404.html" />
+      <change beforePath="$PROJECT_DIR$/public/422.html" afterPath="$PROJECT_DIR$/public/422.html" />
+      <change beforePath="$PROJECT_DIR$/public/500.html" afterPath="$PROJECT_DIR$/public/500.html" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change beforePath="$PROJECT_DIR$/storage/.keep" afterPath="$PROJECT_DIR$/storage/.keep" />
+      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" afterPath="$PROJECT_DIR$/test/controllers/.keep" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/cashboxes_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/cashboxes_controller_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/cashflows_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/cashflows_controller_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/outflows_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/outflows_controller_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/outflowtypes_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/outflowtypes_controller_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/people_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/people_controller_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/transactions_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/transactions_controller_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" afterPath="$PROJECT_DIR$/test/fixtures/.keep" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/cashboxes.yml" afterPath="$PROJECT_DIR$/test/fixtures/cashboxes.yml" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/cashflows.yml" afterPath="$PROJECT_DIR$/test/fixtures/cashflows.yml" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/outflows.yml" afterPath="$PROJECT_DIR$/test/fixtures/outflows.yml" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/outflowtypes.yml" afterPath="$PROJECT_DIR$/test/fixtures/outflowtypes.yml" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/people.yml" afterPath="$PROJECT_DIR$/test/fixtures/people.yml" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/transactions.yml" afterPath="$PROJECT_DIR$/test/fixtures/transactions.yml" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" afterPath="$PROJECT_DIR$/test/helpers/.keep" />
+      <change beforePath="$PROJECT_DIR$/test/integration/.keep" afterPath="$PROJECT_DIR$/test/integration/.keep" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" afterPath="$PROJECT_DIR$/test/mailers/.keep" />
+      <change beforePath="$PROJECT_DIR$/test/models/.keep" afterPath="$PROJECT_DIR$/test/models/.keep" />
+      <change beforePath="$PROJECT_DIR$/test/models/cashbox_test.rb" afterPath="$PROJECT_DIR$/test/models/cashbox_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/models/cashflow_test.rb" afterPath="$PROJECT_DIR$/test/models/cashflow_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/models/outflow_test.rb" afterPath="$PROJECT_DIR$/test/models/outflow_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/models/outflowtype_test.rb" afterPath="$PROJECT_DIR$/test/models/outflowtype_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/models/person_test.rb" afterPath="$PROJECT_DIR$/test/models/person_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/models/transaction_test.rb" afterPath="$PROJECT_DIR$/test/models/transaction_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/system/.keep" afterPath="$PROJECT_DIR$/test/system/.keep" />
+      <change beforePath="$PROJECT_DIR$/test/system/cashboxes_test.rb" afterPath="$PROJECT_DIR$/test/system/cashboxes_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/system/cashflows_test.rb" afterPath="$PROJECT_DIR$/test/system/cashflows_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/system/outflows_test.rb" afterPath="$PROJECT_DIR$/test/system/outflows_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/system/outflowtypes_test.rb" afterPath="$PROJECT_DIR$/test/system/outflowtypes_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/system/people_test.rb" afterPath="$PROJECT_DIR$/test/system/people_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/system/transactions_test.rb" afterPath="$PROJECT_DIR$/test/system/transactions_test.rb" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/tmp/.keep" afterPath="$PROJECT_DIR$/tmp/.keep" />
+      <change beforePath="$PROJECT_DIR$/vendor/.keep" afterPath="$PROJECT_DIR$/vendor/.keep" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,8 +254,21 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="324">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="e#80#113#0#HTML" expanded="true" />
+                <element signature="e#143#179#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cashboxes/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -46,21 +284,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/transactions/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
+            <state relative-caret-position="567">
               <caret line="36" column="66" lean-forward="false" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/transactions/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,13 +345,13 @@
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/static_pages_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/transactions/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/transactions_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/transaction.rb" />
         <option value="$PROJECT_DIR$/app/models/outflowtype.rb" />
         <option value="$PROJECT_DIR$/app/views/transactions/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/cashboxes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/cashboxes/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/transactions/index.html.erb" />
       </list>
@@ -156,7 +384,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +427,20 @@
               <item name="pettycash" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pettycash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pettycash" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="static_pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pettycash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pettycash" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="transactions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,7 +464,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,23 +611,24 @@
       <workItem from="1557847442532" duration="1879000" />
       <workItem from="1558736137420" duration="2657000" />
       <workItem from="1559430719836" duration="752000" />
+      <workItem from="1561026513028" duration="3207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65902000" />
+    <option name="totallyTimeSpent" value="69109000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3943" y="59" width="1410" height="1014" extended-state="0" />
+    <frame x="3879" y="-2" width="1881" height="1202" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22653958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17111717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2850877" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2156682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -442,7 +685,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#80#113#0#HTML" expanded="true" />
+            <element signature="e#143#179#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -704,14 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190514161646_add_bal_to_cashboxes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -744,25 +982,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cashboxes/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#80#113#0#HTML" expanded="true" />
+            <element signature="e#143#179#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/transactions/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/cashboxes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="66" lean-forward="false" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+        <state relative-caret-position="180">
+          <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/transactions/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/transactions/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="36" column="66" lean-forward="false" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
           <folding />
         </state>
       </provider>
